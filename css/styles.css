@@ -10,10 +10,11 @@ body {
 
 /* HEADER */
 .header {
-
+    width: 1440px;
+    height:  72px;
 }
 .header_all{
-
+border-bottom: 1px solid #E7E9FC;
 }
 .header_one-navbar {
     background-color: #FFFFFF;
@@ -36,7 +37,8 @@ body {
 }
 
 .header_list {
-
+width: auto;
+height: auto;
 }
 .list{
 
