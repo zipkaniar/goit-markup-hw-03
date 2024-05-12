@@ -19,19 +19,20 @@ img{
 
 /* HEADER */
 .header {
-    width: 1440px;
-    height:  72px;
     border-bottom: 1px solid #E7E9FC;
 }
 .header_one-navbar {
+    display: flex;
+    align-items: center;
     background-color: #FFFFFF;
     color: #FFFFFF;
 }
 .header_logo {
+    margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 21px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -40,14 +41,18 @@ img{
 
 .header_span {
     color: #2E2F42;
+    display: flex;
 }
 
 .header_list {
+display: flex;
 width: auto;
 height: auto;
+gap: 40px;
+margin-right: 40px;
 }
 .list{
-
+    padding: 24px;
 }
 .header_navli {
     font-weight: 500;
@@ -66,11 +71,18 @@ height: auto;
 .header_adres {
     font-style: normal;
 }
+.header-adres_list{
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
 .header_adres-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-right: 40px;
 }
 .header_adres-link:hover {
     color: #404BBF;
