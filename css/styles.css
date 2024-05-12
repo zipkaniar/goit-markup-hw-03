@@ -76,6 +76,7 @@ margin-right: 40px;
     display: flex;
     gap: 40px;
     align-items: center;
+    padding: 24px;
 }
 .header_adres-link {
     font-size: 16px;
@@ -92,9 +93,11 @@ margin-right: 40px;
 }
 /*MAİN*/
 .section-main {
+    padding: 188px;
     background-color: #2e2f42;
 }
 .hone-css {
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -109,6 +112,10 @@ margin-right: 40px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .button:hover {
     background-color: #404BBF;
