@@ -6,7 +6,14 @@ body {
 img{
     display: block;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
 /* HEADER */
 .header {
     border-bottom: 1px solid #E7E9FC;
@@ -16,8 +23,8 @@ img{
 }
 .container {
     width: 1158px;
-    margin: 0 auto;
     padding: 0 15px;
+    margin: 0 auto;
 }
 .header_one-navbar {
     display: flex;
@@ -78,18 +85,19 @@ gap: 40px;
 }
 /*MAİN*/
 .section-main {
-    padding: 188px;
+    padding: 188px 0;
     background-color: #2e2f42;
 }
 .hone-css {
-    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    max-width: 496px;
 }
 .button {
+    display: block;
     background-color: #4D5AE5;
     font-weight: 500;
     font-size: 16px;
@@ -140,41 +148,95 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-align: center;
     margin-bottom: 8px;
 }
 .hthreep-css {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .section-three {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .htvoclass {
-    background-color: #F4F4FD;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .ulclass {
-    background-color: #FFFFFF;
+    display: flex;
+    gap: 24px;
 }
-
 .section-threeli {
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.our-team_div{
+    padding: 32px 0;
+}
+.section-four {
+    padding: 120px 0 120px 0;
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portfolio-alt_div {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.portfolio-css {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.portfoliop-css {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 /*FOOTER*/
 .footerone {
     background-color: #2e2f42;
-    padding-top: 100px;
+    padding: 100px 0;
+}
+.ooter_logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .spanfooter {
     color: #F4F4FD;
 }
+:root {
+    --stil-color: #F4F4FD;
+}
+
 .footer-text {
     line-height: 1.5;
-    color: #F4F4FD;
+    color:var(--stil-color)
     letter-spacing: 0.02em;
 }
