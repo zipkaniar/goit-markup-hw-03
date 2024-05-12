@@ -10,49 +10,41 @@ body {
 img{
     display: block;
 }
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-    display: flex;
-}
 
 /* HEADER */
 .header {
     border-bottom: 1px solid #E7E9FC;
 }
+.header-div {
+    display: flex;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .header_one-navbar {
     display: flex;
     align-items: center;
-    background-color: #FFFFFF;
-    color: #FFFFFF;
 }
 .header_logo {
     margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none;
 }
 
 .header_span {
     color: #2E2F42;
-    display: flex;
 }
 
 .header_list {
 display: flex;
-width: auto;
-height: auto;
 gap: 40px;
-margin-right: 40px;
-}
-.list{
-    padding: 24px;
 }
 .header_navli {
     font-weight: 500;
