@@ -217,7 +217,7 @@ ul {
     background-color: #2e2f42;
     padding: 100px 0;
 }
-.ooter_logo {
+.footer_logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -234,9 +234,8 @@ ul {
 :root {
     --stil-color: #F4F4FD;
 }
-
 .footer-text {
     line-height: 1.5;
-    color:var(--stil-color)
+    color: var(--stil-color);
     letter-spacing: 0.02em;
 }
