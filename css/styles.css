@@ -10,6 +10,12 @@ body {
 img{
     display: block;
 }
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+}
 
 /* HEADER */
 .header {
@@ -17,15 +23,10 @@ img{
     height:  72px;
     border-bottom: 1px solid #E7E9FC;
 }
-.header_all{
-display: flex;
-width: 1158px;
-}
 .header_one-navbar {
     background-color: #FFFFFF;
     color: #FFFFFF;
 }
-
 .header_logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -146,11 +147,6 @@ height: auto;
 .footerone {
     background-color: #2e2f42;
     padding-top: 100px;
-}
-footercontainer{
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 .spanfooter {
     color: #F4F4FD;
