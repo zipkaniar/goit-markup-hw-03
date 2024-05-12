@@ -12,9 +12,9 @@ body {
 .header {
     width: 1440px;
     height:  72px;
+    border-bottom: 1px solid #E7E9FC;
 }
 .header_all{
-border-bottom: 1px solid #E7E9FC;
 display: flex;
 width: 1158px;
 }
