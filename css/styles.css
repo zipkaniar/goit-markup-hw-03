@@ -21,9 +21,14 @@ h6 {
 /* HEADER */
 .header {
     border-bottom: 1px solid #E7E9FC;
+    height: 72px;
 }
 .header-div {
     display: flex;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
 }
 .container {
     width: 1158px;
