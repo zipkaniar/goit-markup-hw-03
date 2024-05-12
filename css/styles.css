@@ -64,9 +64,12 @@ gap: 40px;
     color: #434455;
 }
 .header-adres_list{
+    display: flex;
+    gap: 40px;
+}
+.header-adress_list {
     color: #434455;
 }
-
 .header-adres_list:hover {
     color: #404BBF;
 }
@@ -108,7 +111,7 @@ gap: 40px;
 .sec_two{
     padding: 120px;
 }
-.visually-hidden{
+.visually-hidden {
         position: absolute;
         width: 1px;
         height: 1px;
@@ -119,7 +122,7 @@ gap: 40px;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
-}
+    }
 ul {
     padding: 0;
     margin: 0;
