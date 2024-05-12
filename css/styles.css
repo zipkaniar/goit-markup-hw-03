@@ -6,6 +6,10 @@ body {
 img{
     display: block;
 }
+ul {
+    padding: 0;
+    margin: 0;
+}
 h1,
 h2,
 h3,
@@ -31,7 +35,6 @@ h6 {
     align-items: center;
 }
 .header_logo {
-    margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -39,6 +42,7 @@ h6 {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .header_span {
@@ -48,6 +52,9 @@ h6 {
 .header_list {
 display: flex;
 gap: 40px;
+}
+.header_list a {
+    padding: 24px 0;
 }
 .header_navli {
     font-weight: 500;
@@ -131,10 +138,6 @@ gap: 40px;
         clip: rect(0 0 0 0);
         overflow: hidden;
     }
-ul {
-    padding: 0;
-    margin: 0;
-}
 .ul-list {
     display: flex;
     gap: 24px;
