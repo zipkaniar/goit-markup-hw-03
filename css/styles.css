@@ -2,10 +2,6 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
 }
 img{
     display: block;
@@ -62,25 +58,19 @@ gap: 40px;
 
 .header_adres {
     font-style: normal;
-}
-.header-adres_list{
-    align-items: center;
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    padding: 24px;
-}
-.header_adres-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-right: 40px;
 }
-.header_adres-link:hover {
+.header-adres_list{
+    color: #434455;
+}
+
+.header-adres_list:hover {
     color: #404BBF;
 }
-.header_adres-link:focus {
+.header-adres_list:focus {
     color: #404BBF;
 }
 /*MAİN*/
